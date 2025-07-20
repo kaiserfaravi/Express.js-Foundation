@@ -8,8 +8,6 @@ app.use(express.json())
 
 app.use("/todos",todosRouter)
 
-
-
 app.get('/',(req:Request,res:Response)=>{
     res.end("hello server ")
 })
